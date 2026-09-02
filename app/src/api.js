@@ -70,7 +70,7 @@ async function request(method, path, { body, params } = {}) {
 }
 
 export const api = {
-    login: (login, password) => request('POST', '/api/auth/login', { body: { login, password } }),
+    login: (login, password) => request('POST', '/api/auth/login', { body: { username: login, password } }),
     me: () => request('GET', '/api/auth/me'),
     statsToday: () => request('GET', '/api/attendance/stats/today'),
     employees: (search, brigade) => request('GET', '/api/employees', { params: { search, brigade } }),
