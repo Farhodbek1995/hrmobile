@@ -1,0 +1,13 @@
+{
+    "appId": "uz.hr.mobil",
+    "appName": "HR Mobil",
+    "webDir": "dist",
+    "bundledWebRuntime": false,
+    "server": {
+        "androidScheme": "http",
+        "cleartext": true
+    },
+    "android": {
+        "allowMixedContent": true
+    }
+}

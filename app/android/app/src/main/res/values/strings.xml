@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HR Mobil</string>
+    <string name="title_activity_main">HR Mobil</string>
+    <string name="package_name">uz.hr.mobil</string>
+    <string name="custom_url_scheme">uz.hr.mobil</string>
+</resources>

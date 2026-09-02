@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.npm/
+.env
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+.DS_Store
+.idea/
+.vscode/
+android/app/build/
+android/.gradle/
+ios/App/App.xcodeproj/xcuserdata/
+hr_mobile.db
